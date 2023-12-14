@@ -1,12 +1,12 @@
 package palabrafinal;
 
-public final  class ClaseFinal {
+public final class ClaseFinal {
 
     //variable marcada como static, esta no se puede acceder con la clase y  "."
     public final int numero = 10;
     
     //constante en Java, estas se definen en mayuscula, al ser estatica se puede acceder con la clase y "."
-    public static  int VAR_NUMERO = 3;
+    public static final int VAR_NUMERO = 3;
     
     //Esta variable objeto solo apuntara al objeto Persona, no podra modificarse para apuntar a otro objeto
     public static final Persona VAR_PERSONA = new Persona();
